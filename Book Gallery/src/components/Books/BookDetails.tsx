@@ -21,8 +21,9 @@ const BookDetails = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            {isLoading && <p>Loading book..</p>}
-            {book && (
+            {isLoading ? (
+              <p>Loading book..</p>
+            ) : (
               <>
                 <div>
                   {book.name}
