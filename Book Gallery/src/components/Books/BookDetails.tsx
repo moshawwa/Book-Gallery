@@ -22,7 +22,18 @@ const BookDetails = () => {
         <div className="row">
           <div className="col-md-12">
             {isLoading && <p>Loading book..</p>}
-            {book && <p>{book.about}</p>}
+            {book && (
+              <>
+                <div>
+                  {book.name}
+                  {book.author.name}
+                  {book.category.name}
+                  {book.about}
+                  {book.price}
+                  {book.publishYear}
+                </div>
+              </>
+            )}
           </div>
         </div>
       </div>
