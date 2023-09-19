@@ -34,6 +34,7 @@ const BookDetails = () => {
         </div>
       ) : (
         <div className="container">
+          <h1>Book Details</h1>
           <div className="row">
             <div className="col-lg-12 p-5">
               <div
@@ -63,6 +64,7 @@ const BookDetails = () => {
                 </div>
               </div>
             </div>
+            h
           </div>
         </div>
       )}
