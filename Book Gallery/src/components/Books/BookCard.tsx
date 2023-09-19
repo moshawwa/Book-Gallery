@@ -17,7 +17,7 @@ const BookCard = () => {
       <div className="row">
         {books.map((book) => {
           return (
-            <div key={book.id} className="col-md-4">
+            <div key={book.id} className="col-md-3">
               <div
                 className="card"
                 style={{ backgroundColor: "#f0f0f0", padding: "10px" }}
