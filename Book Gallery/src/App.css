@@ -4,27 +4,7 @@
   color: #ffffff;
 }
 
-.dark-mode .navbar {
-  background-color: #121212;
-}
 
-.dark-mode .navbar .nav-link {
-  color: #ffffff;
-}
-
-/* Light Mode */
-.light-mode {
-  background-color: #ffffff;
-  color: #333333;
-}
-
-.light-mode .navbar {
-  background-color: #ffffff;
-}
-
-.light-mode .navbar .nav-link {
-  color: #333333;
-}
 
 /* Add more styles for dark and light mode as needed */
 .navbar{

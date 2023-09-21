@@ -11,3 +11,8 @@
 .HeadarDashboard .nav{
   border-radius:20px;
 }
+
+.nav{
+  margin-bottom: 20px;
+  color: black;
+}

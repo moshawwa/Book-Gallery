@@ -18,7 +18,7 @@ export type Book = {
 export type Category = {
   id: number;
   name: string;
-  isEditing: boolean;
+  isEditing?: boolean;
 };
 
 export type Author = {
